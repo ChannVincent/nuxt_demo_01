@@ -35,7 +35,7 @@ export default {
             }
           ].find(el => el.id === context.params.id)
         })
-      }, 1500)
+      }, 0)
     })
   }
 }
